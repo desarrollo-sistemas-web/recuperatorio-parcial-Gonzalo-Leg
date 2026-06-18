@@ -6,9 +6,9 @@
 //Pista: puedes usar la función strrev(). Busca en la documentación de PHP cómo se usa.
 
 function invertirPalabra($palabra){
-    //Escribe tu código aquí
-
+    return strrev($palabra);
 }
+echo invertirPalabra("Hola");
 
 //Tests
 assert("aloH" == invertirPalabra("Hola"), "La palabra 'Hola' invertida es 'aloH'");
